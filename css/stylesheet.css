@@ -1,0 +1,47 @@
+body {
+    background-image: url(../img/fish.jpg);
+    color: greenyellow;
+    font-size: larger;
+    cursor: url(../img/curse.png), auto;
+}
+h1 {
+    font-size: 70pt
+}
+#blob {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    animation: bounce 5s linear infinite; /* Animation properties */
+}
+
+body {
+    overflow: auto;
+}
+
+@keyframes bounce {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 80%; /* Adjust these values */
+        top: 0;
+    }
+    50% {
+        left: 80%;
+        top: 80%; /* Adjust these values */
+    }
+    75% {
+        left: 0%;
+        top: 80%; /* Adjust these values */
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+img {
+   
+    border: 2px solid pink; /* Example border */
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3); 
+}
